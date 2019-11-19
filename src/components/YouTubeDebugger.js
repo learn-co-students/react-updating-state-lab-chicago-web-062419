@@ -45,6 +45,7 @@ class YouTubeDebugger extends Component {
   render() {
     return (
       <div>
+        {/* Redirects to handleChangeBitrate function on click */}
         <button className="bitrate" onClick={this.handleChangeBitrate}>
           Change bitrate
         </button>
